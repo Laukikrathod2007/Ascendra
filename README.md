@@ -1,124 +1,253 @@
-# 🏛️ ASCENDRA — Enterprise Execution Governance Platform
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Laukikrathod2007/Ascendra/main/public/ascendra-logo.png" alt="Ascendra Logo" width="420" />
 
-<p align="center">
-  <img src="public/favicon.svg" width="100" height="100" alt="Ascendra Logo" />
-</p>
+  <br/>
+  <br/>
 
-<h3 align="center">
-  <strong>Fortune 500 Performance Observability & Execution Governance Cockpit</strong>
-</h3>
+  <h2>Enterprise Execution Governance & Performance Observability Platform</h2>
 
-<p align="center">
-  Ascendra is a premium enterprise intelligence system engineered for leadership teams to govern quarterly strategic execution, automate compliance checks, and trace workflow lifecycles across complex corporate hierarchies.
-</p>
+  <p>
+    A Fortune 500-grade platform that transforms fragmented quarterly planning into a<br/>
+    real-time compliance cockpit — built for leadership teams who demand precision.
+  </p>
 
-<p align="center">
+  <br/>
+
   <a href="https://ascendra-xi.vercel.app/">
-    <img src="https://img.shields.io/badge/Live%20Demo-ascendra--xi.vercel.app-6366F1?style=for-the-badge&logo=vercel" alt="Live Demo" />
+    <img src="https://img.shields.io/badge/🚀%20Live%20Demo-ascendra--xi.vercel.app-6366F1?style=for-the-badge" alt="Live Demo" />
   </a>
+  &nbsp;
   <a href="https://github.com/Laukikrathod2007/Ascendra">
-    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub Repo" />
+    <img src="https://img.shields.io/badge/GitHub-Source%20Code-181717?style=for-the-badge&logo=github" alt="GitHub" />
   </a>
-</p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Framework-Vanilla_JS_ES6-F7DF1E?style=flat-square&logo=javascript" alt="Vanilla JS" />
-  <img src="https://img.shields.io/badge/Bundler-Vite_8.0-6366F1?style=flat-square&logo=vite" alt="Vite" />
-  <img src="https://img.shields.io/badge/Styling-Custom_HSL_CSS-1572B6?style=flat-square&logo=css3" alt="CSS3" />
-  <img src="https://img.shields.io/badge/Telemetry-Chart.js-FF6384?style=flat-square&logo=chartdotjs" alt="Chart.js" />
-  <img src="https://img.shields.io/badge/Persistence-LocalStorage-007396?style=flat-square" alt="LocalStorage" />
-</p>
+  <br/><br/>
 
----
+  <img src="https://img.shields.io/badge/Vanilla_JS-ES6_Modules-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Vite-8.0-646CFF?style=flat-square&logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Chart.js-Telemetry-FF6384?style=flat-square&logo=chartdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-HSL_Design_Tokens-1572B6?style=flat-square&logo=css3" />
+  <img src="https://img.shields.io/badge/Vercel-Deployed-000000?style=flat-square&logo=vercel" />
 
-## 🎯 The Pitch: The Executive Execution Problem
-
-Enterprise strategic planning is **broken**. Most Fortune 500 companies attempt to manage key quarterly goals using fragmented spreadsheets, template-like HR tools, or static checklists. This leads to critical failure points:
-*   **Zero Observability:** Leadership has no real-time alignment mapping or telemetry tracking.
-*   **Governance Drift:** Employees submit misaligned targets, bypass approval protocols, or modify locked goals post-audit.
-*   **Leader Burnout:** Mid-level managers are overwhelmed by manual reviews, target overlaps, and disjointed comment histories.
-
-### 💡 The Ascendra Solution
-Ascendra transforms static goal setting into a **dynamic compliance observability engine**. By integrating live telemetry, structured mathematical constraints, dynamic reporting trees, and automated smart checks, it secures corporate alignment while delivering premium, glassmorphic visual aesthetics designed for the C-Suite.
+</div>
 
 ---
 
-## 💎 Core Architecture & Design Masterpieces
+## 🎯 The Problem We Solve
 
-### 1. Dynamic Workspace Role Switcher
-*   **Dynamically Swapped Contexts:** Swap between `EMPLOYEE`, `MANAGER`, and `ADMIN` roles instantly via the sidebar's visual scope dropdown.
-*   **Role-Specific Navigation & Privileges:** Navbars, action triggers, edit boundaries, and dashboard panels adapt in real-time, allowing users to demo the entire enterprise workflow loop from a single interface.
+> Most enterprises still manage quarterly strategic goals through **fragmented spreadsheets, disconnected HR tools, and static PDF check-ins.** This creates invisible execution gaps, governance drift, and zero real-time observability for leadership.
 
-### 2. Live Organization Hierarchy Map (`OrgTree.js`)
-*   **Visual reporting Lines:** Renders reporting structures using dynamic hierarchical connector lines.
-*   **Progress Overlays:** Maps subordinate department badges, team names, goal tallies, and color-coded progress bars calculated directly from live achievements.
-*   **Profile Side Drawer:** Click any reporting card to slide out a side drawer showing audit actions and specific goal histories.
-
-### 3. Strict Goal Lifecycle Governance (`GoalManagement.js` / `ManagerReview.js`)
-*   **Mathematical Sum checks:** Restricts submissions by checking that active goals sum up to exactly **100% total weight**, enforcing corporate compliance.
-*   **Multi-Stage Lifecycle Actions:** Supports drafting, target directions (`↑ Higher is better` or `↓ Lower is better`), submissions, manager comments, final approvals, and returned rework triggers.
-*   **Form Locks:** Grey-out layers and disabled inputs block actions once a sheet is submitted or approved, preserving the integrity of the data.
-
-### 4. Smart Compliance Intervention Queue (`SmartQueue.js` / `HealthInspector.js`)
-Ascendra processes store data through **five automated compliance checks** to preemptively spot bottlenecks:
-1.  **Overdue Metrics:** Flags achievements falling below target with no edits in 45+ days.
-2.  **Leader Overload:** Alerts administrators when a manager has 3+ subordinate sheets pending review.
-3.  **Shared Target Conflicts:** Scans for shared corporate KPIs where employees hold conflicting targets.
-4.  **Returned Rework logs:** Tracks sheets sent back to draft by managers for clear observability.
-5.  **Post-Lock Updates:** Highlights modifications made after cycle locking.
-
-### 5. C-Suite Execution Cockpit & Tracing (`AdminDashboard.js` / `Tracing.js`)
-*   **Chart.js Integrations:** Beautiful, responsive trend lines displaying completion ratios, at-risk percentages, and escalation logs.
-*   **Contribution Breakdowns:** Dynamic donut charts displaying execution distributions.
-*   **Audit Trail logs:** An advanced chronological log viewer with search and role-filtering, auditing over 220+ programmatic actions.
+**Ascendra** replaces all of that with a **living, automated, governance-first execution engine** — where goal setting, manager approvals, compliance audits, and performance telemetry all live in one premium cockpit.
 
 ---
 
-## 🛠️ The Tech Stack & Hackathon Engineering Decisions
+## ✨ Core Modules & Features
 
-*   **Ultra-Fast SPA Architecture:** Written in Vanilla JS (ES Modules) and semantic HTML5. Navigation uses a highly-optimized state swaps mechanism (`window.navigate`), eliminating page-reload visual flicker and making the application compatible with any standard static host.
-*   **Vite 8.x Bundler:** Serves rapid Hot Module Replacement (HMR) during sandbox runs and outputs highly-optimized production builds under 166 milliseconds.
-*   **Reactive local State & localStorage Persistence:** Built around a single reactive state store (`src/store/state.js`). Every edit, review comment, and role swap is safely saved to the user's browser `localStorage` (`ascendra_state_v1`). This guarantees that your demo modifications remain safe and fully intact without relying on a database.
-*   **Glassmorphic Design Tokens:** The visual framework utilizes HSL color palettes, custom shadows (`var(--shadow-md)`), and responsive hover transitions to deliver a premium enterprise visual aesthetic.
+### 🔄 Dynamic Role Workspace Switcher
+Instantly switch between three fully isolated role contexts — **Administrator**, **Department Manager**, and **Employee** — each with tailored navigation, permissions, and telemetry dashboards. No page reloads. Zero flicker.
 
 ---
 
-## 📦 Local Installation & Setup
+### 🎯 Goal Lifecycle Engine
+> **Files:** `src/pages/GoalManagement.js` · `src/pages/ManagerReview.js`
 
-1.  **Clone the Repository:**
-    ```bash
-    git clone https://github.com/Laukikrathod2007/Ascendra.git
-    cd Ascendra
-    ```
-
-2.  **Install Dependencies:**
-    ```bash
-    npm install
-    ```
-
-3.  **Start Development Server:**
-    ```bash
-    npm run dev
-    ```
-    The server will host the application locally on `http://localhost:5173/`.
-
-4.  **Build for Production:**
-    ```bash
-    npm run build
-    ```
-    Compiles optimized CSS and JS assets in the `dist/` directory.
+| Stage | What Happens |
+|-------|-------------|
+| **Draft** | Employee creates strategic goals with weighted KPIs |
+| **Weight Check** | System enforces `sum == 100%` before submission |
+| **Submit** | Form locks; sheet enters manager's review queue |
+| **Review** | Manager annotates with target direction (`↑ Higher` / `↓ Lower`) |
+| **Approve / Return** | Approved sheets lock permanently; returned sheets unlock with rework notes |
 
 ---
 
-## 🏆 Why Ascendra Wins Hackathons
+### 🩺 5-Point Smart Compliance Intelligence
+> **Files:** `src/pages/SmartQueue.js` · `src/pages/HealthInspector.js`
 
-*   **Premium Visual Polish:** Implements curated HSL colors, smooth transitions, and responsive grid layouts that look great on any screen.
-*   **Comprehensive Demo State:** Launches with realistic mock data, including 12+ employee profiles, 60+ goals, 220+ logs, and notifications.
-*   **Complex Governance Rules:** Goes beyond a basic todo list by enforcing mathematical sum bounds, automated conflict alerts, and locking states.
-*   **Developer Simplicity:** Standard web assets compile quickly, deploy easily, and run fast on Vercel without requiring complex server configurations.
+The platform runs **automated compliance sweeps** across all active goal sheets:
+
+| # | Check | Trigger Condition |
+|---|-------|------------------|
+| 1 | 🚨 **Overdue Metrics** | Achievement below target, no update in 45+ days |
+| 2 | 👥 **Leader Overload** | Manager has 3+ sheets pending review simultaneously |
+| 3 | ⚖️ **Shared KPI Conflicts** | Two employees hold conflicting targets on the same corporate goal |
+| 4 | 🔄 **Rework Monitor** | Sheets returned to draft by managers — tracked for SLA |
+| 5 | 🔒 **Post-Lock Edit Audit** | Goals modified after administrative cycle lock |
 
 ---
 
-<p align="center">
-  Developed by <strong>Laukik Rathod</strong>. Designed for Corporate Excellence.
-</p>
+### 📈 Executive Observability Cockpit
+> **File:** `src/pages/AdminDashboard.js`
+
+- **Live Chart.js Trend Lines** — Completion %, At-Risk %, and Escalation Rate over time
+- **Departmental Donut Breakdown** — Contribution share across Sales, Engineering, Ops, HR
+- **Smart Intervention Feed** — Flagged anomalies surfaced directly on the dashboard
+- **Leader Effectiveness Rankings** — Manager performance scored by team execution speed
+
+---
+
+### 🌳 Interactive Organization Hierarchy Map
+> **File:** `src/pages/OrgTree.js`
+
+Visual reporting tree with live connector lines, department badge overlays, progress indicators, and clickable side drawers showing employee goal histories and audit actions.
+
+---
+
+### 📜 Governance Audit Trail & Workflow Tracing
+> **Files:** `src/pages/Reports.js` · `src/pages/Tracing.js`
+
+Chronological log of **220+ programmatic audit actions** with full-text search, role-based filters, and lifecycle state tracing to pinpoint bottlenecks in any approval chain.
+
+---
+
+### ⚙️ Cycle Planning Control Panel
+> **File:** `src/pages/AdminSettings.js`
+
+Administrators control the global planning phase — `GOAL_SETTING → Q1 → Q2 → Q3 → Q4` — with cycle lock toggles that instantly freeze or unlock all subordinate forms enterprise-wide.
+
+---
+
+## 🏗️ Architecture at a Glance
+
+```
+┌─────────────────────────────────────────────────────────┐
+│              BROWSER (Zero Server Required)              │
+│                                                         │
+│  ┌────────────┐    ┌─────────────────────────────────┐  │
+│  │  Role Shell │───▶│   Virtual SPA Router            │  │
+│  │ (buildShell)│    │   (window.navigate → pageId)    │  │
+│  └────────────┘    └──────────┬──────────────────────┘  │
+│                               │ mounts                   │
+│                    ┌──────────▼──────────────────────┐  │
+│                    │     ES Module Views (src/pages/) │  │
+│                    │  Dashboard · Goals · Org · Audit  │  │
+│                    └──────────┬──────────────────────┘  │
+│                               │ reads/writes             │
+│                    ┌──────────▼──────────────────────┐  │
+│                    │   Reactive State Store           │  │
+│                    │   (src/store/state.js)           │  │
+│                    └──────────┬──────────────────────┘  │
+│                               │ persists                 │
+│                    ┌──────────▼──────────────────────┐  │
+│                    │   Browser LocalStorage           │  │
+│                    │   key: 'ascendra_state_v1'       │  │
+│                    └─────────────────────────────────┘  │
+└─────────────────────────────────────────────────────────┘
+```
+
+> **Full interactive architecture diagrams (topology maps, sequence flows, governance loops) →** [`ARCHITECTURAL_DIAGRAM.md`](./ARCHITECTURAL_DIAGRAM.md)
+
+---
+
+## 🎨 Design System Highlights
+
+| Token | Value | Usage |
+|-------|-------|-------|
+| **Primary** | `#6366F1` — Indigo | Active states, CTAs, progress rings |
+| **Success** | `#10B981` — Emerald | Approved goals, healthy metrics |
+| **Warning** | `#F59E0B` — Amber | At-risk indicators, pending states |
+| **Danger** | `#EF4444` — Rose | Escalations, overdue flags |
+| **Surface** | `#0F172A` — Slate | Dark mode base canvas |
+
+- **Glassmorphic Cards** — `backdrop-filter: blur(8px)` with translucent borders
+- **Micro-Animations** — `transform: translateY(-2px)` on hover, `scale(0.98)` on click
+- **Inter Font** — Google Fonts loaded for all UI text
+- **Zero Layout Shift** — Virtual DOM swap routing eliminates CLS entirely
+
+---
+
+## 💾 Data Persistence — No Database Required
+
+All state is stored in `localStorage` under the key `ascendra_state_v1`:
+
+- ✅ **60+ active quarterly goals** pre-seeded across 12 employee profiles
+- ✅ **220+ historical audit log entries** for immediate telemetry demonstration
+- ✅ **3 role profiles** (Admin, Manager, Employee) ready to switch
+- ✅ **User modifications persist** across page refreshes automatically
+- ✅ **New Vercel visitors** get the full rich seed dataset on first load
+
+---
+
+## 🚀 Quick Start
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Laukikrathod2007/Ascendra.git
+cd Ascendra
+
+# 2. Install dependencies
+npm install
+
+# 3. Start local development server
+npm run dev
+# → http://localhost:5173/
+
+# 4. Build for production
+npm run build
+```
+
+### Deploy to Vercel (Zero Config)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FLaukikrathod2007%2FAscendra)
+
+Vercel auto-detects **Vite**, sets `npm run build` as the build command, and serves `dist/` — no configuration needed.
+
+---
+
+## 📁 Project Structure
+
+```
+Ascendra/
+├── index.html                    # App entry point
+├── src/
+│   ├── main.js                   # App bootstrap, SPA router, role switcher
+│   ├── store/
+│   │   └── state.js              # Central reactive store + seed data
+│   ├── pages/
+│   │   ├── AdminDashboard.js     # Executive telemetry cockpit
+│   │   ├── GoalManagement.js     # Employee goal builder
+│   │   ├── ManagerReview.js      # Manager approval terminal
+│   │   ├── HealthInspector.js    # 5-point compliance audit
+│   │   ├── SmartQueue.js         # Intervention queue
+│   │   ├── OrgTree.js            # Organization hierarchy map
+│   │   ├── Reports.js            # Audit trail & log viewer
+│   │   ├── Tracing.js            # Workflow lifecycle tracer
+│   │   ├── AdminSettings.js      # Cycle control panel
+│   │   └── CompletionDashboard.js# Completion matrix
+│   ├── utils/
+│   │   ├── engine.js             # Telemetry & score calculations
+│   │   └── constants.js          # Shared enums & config
+│   └── styles/
+│       ├── dashboard.css         # Component grid & card system
+│       └── variables.css         # HSL design token definitions
+├── public/
+│   ├── ascendra-logo.png         # Brand logo
+│   └── favicon.svg               # Browser tab icon
+├── ARCHITECTURAL_DIAGRAM.md      # System topology & sequence diagrams
+├── VISUAL_DESIGN_SPEC.md         # Design token & wireframe spec
+└── package.json
+```
+
+---
+
+## 🏆 Why Ascendra Stands Out
+
+| Criterion | Ascendra's Approach |
+|-----------|-------------------|
+| **Technical Depth** | Full governance lifecycle engine — not a simple CRUD form |
+| **Business Relevance** | Solves real Fortune 500 quarterly execution failures |
+| **Zero Infrastructure** | Fully client-side, deploys to Vercel in 60 seconds flat |
+| **Premium UX** | Glassmorphic design, micro-animations, zero layout shift |
+| **Demo Ready** | Ships with 60+ goals, 220+ logs, 12 employees — no setup |
+| **Code Quality** | Modular ES6 architecture, reactive state, clean separation of concerns |
+
+---
+
+<div align="center">
+  <br/>
+  <img src="https://raw.githubusercontent.com/Laukikrathod2007/Ascendra/main/public/ascendra-logo.png" alt="Ascendra" width="180" />
+  <br/><br/>
+  <strong>Built by Laukik Rathod · Engineered for Corporate Excellence</strong>
+  <br/>
+  <a href="https://ascendra-xi.vercel.app/">ascendra-xi.vercel.app</a>
+  <br/><br/>
+</div>
