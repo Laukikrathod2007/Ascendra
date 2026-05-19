@@ -1,0 +1,17 @@
+{
+  "name": "ascendra",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "notify": "node server/notify.js"
+  },
+  "devDependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "vite": "^8.0.12"
+  }
+}
