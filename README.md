@@ -1,7 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Laukikrathod2007/Ascendra/main/public/ascendra-icon.png" alt="Ascendra Brand Icon" width="130" />
-  <br/>
-  <img src="https://raw.githubusercontent.com/Laukikrathod2007/Ascendra/main/public/ascendra-logo.png" alt="Ascendra Logo" width="340" />
+  <img src="https://raw.githubusercontent.com/Laukikrathod2007/Ascendra/main/public/ascendra-icon.png" alt="Ascendra Logo" width="140" />
 
   <br/>
   <br/>
@@ -222,7 +220,7 @@ Ascendra/
 │       ├── dashboard.css         # Component grid & card system
 │       └── variables.css         # HSL design token definitions
 ├── public/
-│   ├── ascendra-logo.png         # Brand logo
+│   ├── ascendra-icon.png         # Brand logo
 │   └── favicon.svg               # Browser tab icon
 ├── ARCHITECTURAL_DIAGRAM.md      # System topology & sequence diagrams
 ├── VISUAL_DESIGN_SPEC.md         # Design token & wireframe spec
