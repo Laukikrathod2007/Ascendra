@@ -1,17 +1,27 @@
 <div align="center">
   <br/>
-  <img src="https://raw.githubusercontent.com/Laukikrathod2007/Ascendra/main/public/ascendra-icon.png" alt="Ascendra Brand Icon" width="140" />
+  <a href="https://ascendra-xi.vercel.app/" target="_blank">
+    <img src="./public/ascendra-icon.png" alt="Ascendra Brand Icon" width="120" style="border-radius: 24px;" />
+  </a>
+  
   <br/><br/>
+  
   <h1>🏛️ A S C E N D R A</h1>
-  <strong>Enterprise Performance Observability & Execution Governance Control Plane</strong>
-  <br/><br/>
+  
+  <p align="center">
+    <strong>Enterprise Performance Observability & Execution Governance Control Plane</strong>
+    <br/>
+    <em>Transforming fragmented quarterly planning workflows into a real-time, compliance-first cockpit.</em>
+  </p>
+
+  <br/>
 
   <a href="https://ascendra-xi.vercel.app/">
-    <img src="https://img.shields.io/badge/🚀%20Live%20Demo-ascendra--xi.vercel.app-6366F1?style=for-the-badge" alt="Live Demo" />
+    <img src="https://img.shields.io/badge/🚀%20Live%20Platform-Visit%20Ascendra-6366F1?style=for-the-badge" alt="Live Demo" />
   </a>
   &nbsp;
   <a href="https://github.com/Laukikrathod2007/Ascendra">
-    <img src="https://img.shields.io/badge/GitHub-Source%20Code-181717?style=for-the-badge&logo=github" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub" />
   </a>
 
   <br/><br/>
@@ -217,7 +227,7 @@ Ascendra/
 
 <div align="center">
   <br/>
-  <img src="https://raw.githubusercontent.com/Laukikrathod2007/Ascendra/main/public/ascendra-icon.png" alt="Ascendra Icon" width="60" />
+  <img src="./public/ascendra-icon.png" alt="Ascendra Icon" width="60" />
   <br/><br/>
   <strong>Built by Laukik Rathod · Engineered for Corporate Excellence</strong>
   <br/>
