@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Laukikrathod2007/Ascendra/main/public/ascendra-icon.png" alt="Ascendra Logo" width="140" />
+  <img src="https://raw.githubusercontent.com/Laukikrathod2007/Ascendra/main/public/ascendra-logo.png" alt="Ascendra Logo" width="380" />
 
   <br/>
   <br/>
