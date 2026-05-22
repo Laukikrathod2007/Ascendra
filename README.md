@@ -171,7 +171,7 @@ npm run build
 ### Production Deployment to Vercel (Zero Config)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FLaukikrathod2007%2FAscendra)
 
-*   **Vite Integration:** Auto-detected by Vercel's build container.
+*   **Vite Integration:** Auto-detected by Vercel's build .
 *   **SPA Handling:** The application uses state-based client routing, meaning no backend rewrite redirects or custom `vercel.json` setups are required.
 
 ---
